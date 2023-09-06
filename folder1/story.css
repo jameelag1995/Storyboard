@@ -1,0 +1,52 @@
+
+html {
+background-color: wheat;
+box-sizing: border-box;
+}
+#container {
+    height: 570px;
+    width: 450px;
+    margin: 30px auto;
+    position: relative;
+}
+.card {
+    height: 210px;
+    width: 150px;
+    font-size: small;
+    background-color: rgb(33, 25, 53);
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    
+}
+#card1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#card2{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#card3{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+#card4{
+    position: absolute;
+   right: 0px;
+    bottom: 0px;
+}
+.pic {
+    margin-bottom: 5px;
+}
+#numbering {
+    width: 300px;
+    height: 110px;
+    position: absolute;
+    top: 260px;
+    margin-left: 37.5%;
+}
