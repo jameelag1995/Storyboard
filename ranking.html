@@ -1,18 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ranking</title>
-    <link rel="stylesheet" href="normalize.css">
-</head>
-<body>
-    <details style="padding: 30px;">
-        <div class="container">
-            
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="rankingstyle.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="card1" class="card">
+        <img
+          class="pic"
+          height="150px"
+          width="150px"
+          src="./folder1/assets/pic1.jpg"
+        />
+        <div class="textbox">the guy introduces his buddy to the robot</div>
+        <details>
+          <input
+            type="range"
+            name="rangeinput"
+            id="rangeinput"
+            min="0"
+            max="10"
+            value="0"
+            oninput="amount.value=rangeinput.value"
+          />
+          <output id="amount" name="amount" for="rangeinput">0</output>
+          <br />
+          <div class="buttons">
+            <button class="buttons" id="like">Like</button>
+            <button class="buttons" id="dislike">Dislike</button>
+          </div>
+        </details>
+      </div>
+      <div id="card2" class="card">
+        <img
+          class="pic"
+          height="150px"
+          width="150px"
+          src="./folder1/assets/pic2.jpg"
+        />
+        <div class="textbox">he tells him what the benefit of the robot is</div>
+        <details>
+          <input
+            type="range"
+            name="rangeinput"
+            id="rangeinput"
+            min="0"
+            max="10"
+            value="0"
+            oninput="amount.value=rangeinput.value"
+          />
+          <output id="amount" name="amount" for="rangeinput">0</output>
+          <br />
+          <div class="buttons">
+            <button class="buttons" id="like">Like</button>
+            <button class="buttons" id="dislike">Dislike</button>
+          </div>
+        </details>
+      </div>
+      <div id="card3" class="card">
+        <img
+          class="pic"
+          height="150px"
+          width="150px"
+          src="./folder1/assets/pic3.jpg"
+        />
+        <div class="textbox">his buddy introduces a problem</div>
+        <br />
+        <details>
+          <input
+            type="range"
+            name="rangeinput"
+            id="rangeinput"
+            min="0"
+            max="10"
+            value="0"
+            oninput="amount.value=rangeinput.value"
+          />
+          <output id="amount" name="amount" for="rangeinput">0</output>
+          <br />
+          <div class="buttons">
+            <button class="buttons" id="like">Like</button>
+            <button class="buttons" id="dislike">Dislike</button>
+          </div>
+        </details>
+      </div>
+      <div id="card4" class="card">
+        <img
+          class="pic"
+          height="150px"
+          width="150px"
+          src="./folder1/assets/pic4.jpg"
+        />
+        <div class="textbox">
+          his buddy tries to find a different use for the robot!
         </div>
-        <input type="range" name="rangeinput" id="rangeinput" min="0" max="10" value="0" oninput="amount.value=rangeinput.value">
-        <output id="amount" name="amount" for="rangeinput">0</output>
+        <details>
+          <input
+            type="range"
+            name="rangeinput"
+            id="rangeinput"
+            min="0"
+            max="10"
+            value="0"
+            oninput="amount.value=rangeinput.value"
+          />
+          <output id="amount" name="amount" for="rangeinput">0</output>
+          <br />
+          <div class="buttons">
+            <button class="buttons" id="like">Like</button>
+            <button class="buttons" id="dislike">Dislike</button>
+          </div>
+        </details>
+      </div>
+    </div>
+    <details>
+      <input
+        type="range"
+        name="rangeinput"
+        id="rangeinput"
+        min="0"
+        max="10"
+        value="0"
+        oninput="amount.value=rangeinput.value"
+      />
+      <output id="amount" name="amount" for="rangeinput">5</output>
+      <br />
+      <div class="buttons">
+        <button class="buttons" id="like">Like</button>
+        <button class="buttons" id="dislike">Dislike</button>
+      </div>
     </details>
-</body>
+  </body>
 </html>

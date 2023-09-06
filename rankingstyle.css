@@ -1,0 +1,77 @@
+
+html {
+    background-color: wheat;
+    box-sizing: border-box;
+    }
+    #container {
+        height: 600px;
+        width: 450px;
+        margin: 30px auto;
+        position: relative;
+    }
+    .card {
+        height: 210px;
+        width: 200px;
+        font-size: small;
+        background-color: rgb(33, 25, 53);
+        border: 1px solid black;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        position: relative;
+        
+    }
+    #card1{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    #card2{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    #card3{
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+    #card4{
+        position: absolute;
+       right: 0px;
+        bottom: 0px;
+    }
+    .pic {
+        margin-bottom: 5px;
+    }
+    details {
+        border: whitesmoke solid 1px;
+        background: #5fac76;
+        color: whitesmoke;
+        border-radius: 40px;
+        display: inline;
+        padding: 15px;
+        position:relative;
+        top: 30px;
+    }
+    
+    .buttons {
+        padding: 5px 10px;
+    }
+    
+    #like {
+        background: #51a3da;
+        border-radius: 10px;
+        color: whitesmoke;
+    }
+    #like:hover {
+        background-color: #4081ac;
+    }
+    #dislike {
+        background: #da5a51;
+        border-radius: 10px;
+        color: whitesmoke;
+    }
+    #dislike:hover {
+        background-color: #9c413a;
+    }
