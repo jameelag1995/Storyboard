@@ -1,9 +1,8 @@
-
 html,body {
-background-color: wheat;
-box-sizing: border-box;
-font-family: Arial, Helvetica, sans-serif
-}
+    background-color: wheat;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+    }
 p {
     margin: 0px;
 }
@@ -90,3 +89,37 @@ h1 {
     top: 90%;
     left: 85%;
 } 
+.pic {
+  margin-bottom: 5px;
+}
+details {
+  border: whitesmoke solid 1px;
+  background: #5fac76;
+  color: whitesmoke;
+  border-radius: 40px;
+  display: inline;
+  padding: 10px;
+  position: relative;
+  top: 30px;
+}
+
+.buttons {
+  padding: 5px;
+}
+
+#like {
+  background: #51a3da;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+#like:hover {
+  background-color: #4081ac;
+}
+#dislike {
+  background: #da5a51;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+#dislike:hover {
+  background-color: #9c413a;
+}
