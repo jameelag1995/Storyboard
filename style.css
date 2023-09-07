@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html,body {
     background-color: wheat;
     box-sizing: border-box;
@@ -6,28 +11,96 @@ html,body {
 p {
     margin: 0px;
 }
-h1 {
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary {
+    color: #110b05;
+}
+.btn {
+    display:inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #f7c08a;
+    color: #333;
+}
+
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+
+}
+
+#navbar {
+    background-color: #333;
+    color: white;
+    overflow: auto;
+}
+
+#navbar a {
+    color: white;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display:block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover, 
+#navbar ul li a.current {
+    background-color: #817255;
+    color: #070503;
+}
+h2 {
     border: black 1px solid;
     text-align: center;
     font-style: italic;
-    padding-bottom: 10px;
+    padding: 10px;
     width: 200px;
     margin: auto;
+    margin-top: 5px;
     background-color: rgb(33, 25, 53);
     color: whitesmoke;
-    padding-top: 5px;
+    
     border-radius: 10px;
     
 }
-#container {
+#card-container {
     height: 570px;
     max-width: 450px;
     margin: 50px auto;
     position: relative;
 }
 .card {
-    height: 210px;
-    width: 150px;
+    height: 220px;
+    width: 170px;
     font-size: small;
     background-color: rgb(33, 25, 53);
     border: 1px solid black;
