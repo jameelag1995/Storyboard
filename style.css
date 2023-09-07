@@ -16,6 +16,8 @@ h1 {
     background-color: rgb(33, 25, 53);
     color: whitesmoke;
     padding-top: 5px;
+    border-radius: 10px;
+    
 }
 #container {
     height: 570px;
@@ -32,6 +34,8 @@ h1 {
     color: whitesmoke;
     text-align: center;
     padding: 5px;
+    border-radius: 10px;
+    
     
 }
 #card1{
@@ -65,6 +69,8 @@ h1 {
     height: 20px;
     width: 20px;
     text-align: center;
+    font-weight: bolder;
+    
     
 }
 #n1 {
@@ -94,7 +100,7 @@ h1 {
 }
 details {
   border: whitesmoke solid 1px;
-  background: #5fac76;
+  background: rgb(33, 25, 53);
   color: whitesmoke;
   border-radius: 40px;
   display: inline;
@@ -114,6 +120,7 @@ details {
 }
 #like:hover {
   background-color: #4081ac;
+  text-decoration: underline;
 }
 #dislike {
   background: #da5a51;
@@ -122,4 +129,5 @@ details {
 }
 #dislike:hover {
   background-color: #9c413a;
+  text-decoration: underline;
 }
