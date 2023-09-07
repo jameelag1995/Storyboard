@@ -10,6 +10,10 @@ html,body {
     line-height: 1.7em;
 
 }
+p { 
+    padding: 10px 15px;
+}
+
 
 .container {
     margin: auto;
@@ -77,5 +81,32 @@ html,body {
 #navbar ul li a.current {
     background-color: #817255;
     color: #070503;
+}
+
+#contact-us .form-group {
+    margin-bottom: 20px;
+}
+#contact-us label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-us input {
+    width: 25%;
+    padding: 10px;
+    border: 1px #333 solid;
+}
+
+#contact-us textarea {
+    width: 45%;
+    padding: 50px;
+    border: 1px #333 solid;
+    height: 200 px;
+}
+
+section {
+    background-color:whitesmoke;
+    color:#333;
+    text-align: center;
 }
 
