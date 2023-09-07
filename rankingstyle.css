@@ -1,0 +1,125 @@
+html,body {
+    background-color: wheat;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+    }
+p {
+    margin: 0px;
+}
+h1 {
+    border: black 1px solid;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 10px;
+    width: 200px;
+    margin: auto;
+    background-color: rgb(33, 25, 53);
+    color: whitesmoke;
+    padding-top: 5px;
+}
+#container {
+    height: 570px;
+    max-width: 450px;
+    margin: 50px auto;
+    position: relative;
+}
+.card {
+    height: 210px;
+    width: 150px;
+    font-size: small;
+    background-color: rgb(33, 25, 53);
+    border: 1px solid black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+    
+}
+#card1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#card2{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#card3{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+#card4{
+    position: absolute;
+   right: 0px;
+    bottom: 0px;
+}
+.pic {
+    margin-bottom: 5px;
+}
+
+.badge {
+    border-radius: 50%;
+    background-color: whitesmoke;
+    color: rgb(47, 45, 42);
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    
+}
+#n1 {
+    position: absolute;
+    top: 90%;
+    left: 85%;
+} 
+#n2 {
+    position: absolute;
+    top: 90%;
+    left: 85%;
+} 
+
+#n3 {
+    position: absolute;
+    top: 90%;
+    left: 85%;
+} 
+
+#n4 {
+    position: absolute;
+    top: 90%;
+    left: 85%;
+} 
+.pic {
+  margin-bottom: 5px;
+}
+details {
+  border: whitesmoke solid 1px;
+  background: #5fac76;
+  color: whitesmoke;
+  border-radius: 40px;
+  display: inline;
+  padding: 10px;
+  position: relative;
+  top: 30px;
+}
+
+.buttons {
+  padding: 5px;
+}
+
+#like {
+  background: #51a3da;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+#like:hover {
+  background-color: #4081ac;
+}
+#dislike {
+  background: #da5a51;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+#dislike:hover {
+  background-color: #9c413a;
+}
