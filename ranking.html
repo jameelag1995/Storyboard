@@ -4,30 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ranking</title>
-    <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="rankingstyle.css" />
   </head>
   <body>
+
+    <h1>Ranking</h1>
+
     <div id="container">
       <div id="card1" class="card">
-        <img
-          class="pic"
-          height="150px"
-          width="150px"
-          src="./folder1/assets/pic1.jpg"
-        />
+        <img class="pic" height="150px" width="150px" src="./folder1/assets/pic1.jpg" />
         <div class="textbox">the guy introduces his buddy to the robot</div>
+        <div id="n1" class="badge"><p>1</p></div>
         <details>
           <input
             type="range"
-            name="rangeinput"
-            id="rangeinput"
+            name="rangeinput1"
+            id="rangeinput1"
             min="0"
             max="10"
             value="0"
-            oninput="amount.value=rangeinput.value"
+            oninput="amount1.value=rangeinput1.value"
           />
-          <output id="amount" name="amount" for="rangeinput">0</output>
+          <output id="amount1" name="amount1" for="rangeinput1">0</output>
           <br />
           <div class="buttons">
             <button class="buttons" id="like">Like</button>
@@ -36,24 +34,20 @@
         </details>
       </div>
       <div id="card2" class="card">
-        <img
-          class="pic"
-          height="150px"
-          width="150px"
-          src="./folder1/assets/pic2.jpg"
-        />
+        <img class="pic" height="150px" width="150px" src="./folder1/assets/pic2.jpg" />
         <div class="textbox">he tells him what the benefit of the robot is</div>
+        <div id="n2" class="badge"><p>2</p></div>
         <details>
           <input
             type="range"
-            name="rangeinput"
-            id="rangeinput"
+            name="rangeinput2"
+            id="rangeinput2"
             min="0"
             max="10"
             value="0"
-            oninput="amount.value=rangeinput.value"
+            oninput="amount2.value=rangeinput2.value"
           />
-          <output id="amount" name="amount" for="rangeinput">0</output>
+          <output id="amount2" name="amount2" for="rangeinput2">0</output>
           <br />
           <div class="buttons">
             <button class="buttons" id="like">Like</button>
@@ -62,25 +56,20 @@
         </details>
       </div>
       <div id="card3" class="card">
-        <img
-          class="pic"
-          height="150px"
-          width="150px"
-          src="./folder1/assets/pic3.jpg"
-        />
+        <img class="pic" height="150px" width="150px" src="./folder1/assets/pic3.jpg" />
         <div class="textbox">his buddy introduces a problem</div>
-        <br />
+        <div id="n3" class="badge"><p>3</p></div>
         <details>
           <input
             type="range"
-            name="rangeinput"
-            id="rangeinput"
+            name="rangeinput3"
+            id="rangeinput3"
             min="0"
             max="10"
             value="0"
-            oninput="amount.value=rangeinput.value"
+            oninput="amount3.value=rangeinput3.value"
           />
-          <output id="amount" name="amount" for="rangeinput">0</output>
+          <output id="amount3" name="amount3" for="rangeinput3">0</output>
           <br />
           <div class="buttons">
             <button class="buttons" id="like">Like</button>
@@ -89,26 +78,22 @@
         </details>
       </div>
       <div id="card4" class="card">
-        <img
-          class="pic"
-          height="150px"
-          width="150px"
-          src="./folder1/assets/pic4.jpg"
-        />
+        <img class="pic" height="150px" width="150px" src="./folder1/assets/pic4.jpg" />
         <div class="textbox">
           his buddy tries to find a different use for the robot!
         </div>
+        <div id="n4" class="badge"><p>4</p></div>
         <details>
           <input
             type="range"
-            name="rangeinput"
-            id="rangeinput"
+            name="rangeinput4"
+            id="rangeinput4"
             min="0"
             max="10"
             value="0"
-            oninput="amount.value=rangeinput.value"
+            oninput="amount4.value=rangeinput4.value"
           />
-          <output id="amount" name="amount" for="rangeinput">0</output>
+          <output id="amount4" name="amount4" for="rangeinput4">0</output>
           <br />
           <div class="buttons">
             <button class="buttons" id="like">Like</button>
@@ -117,22 +102,5 @@
         </details>
       </div>
     </div>
-    <details>
-      <input
-        type="range"
-        name="rangeinput"
-        id="rangeinput"
-        min="0"
-        max="10"
-        value="0"
-        oninput="amount.value=rangeinput.value"
-      />
-      <output id="amount" name="amount" for="rangeinput">5</output>
-      <br />
-      <div class="buttons">
-        <button class="buttons" id="like">Like</button>
-        <button class="buttons" id="dislike">Dislike</button>
-      </div>
-    </details>
   </body>
 </html>
