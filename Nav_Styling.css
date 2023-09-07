@@ -1,0 +1,46 @@
+header {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* Style the website name (brand) */
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+    order: 1; /* Pushes the brand to the left */
+}
+
+/* Style the navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    order: 4; /* Pushes the links to the right */
+}
+
+.nav-links li {
+    margin-right: 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    
+}
+
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
