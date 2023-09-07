@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+.container {
+font-size: 1em;
+}
+
 
 input[type=text], select, textarea {
   width: 100%;
@@ -55,4 +59,13 @@ input[type=submit]:hover {
   }
 }
 
+.row .column img {
+  display: inline-block;
+  padding: 50px 0 0 10px;
+}
+
+.container {
+  background-color: wheat;
+  padding-top: 60px;
+}
 
